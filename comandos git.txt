@@ -1,0 +1,17 @@
+git config --global user.name <username>
+git config --global user.email <email>
+git config --global init.defaultbranch <nombreRaiz>
+
+git init
+git status
+git add <nombrearchivo> (. para todo)
+git commit -m "primer commit"
+
+git diff <nombrearchivo> (. para todo)
+
+git remote add <nombre> <url>
+
+git push -u <nombre> <nombreraiz>
+
+git log
+
